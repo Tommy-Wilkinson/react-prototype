@@ -7,8 +7,7 @@ export default class Banner extends React.Component{
     return(
       <h1 className="BannerH1"> 
       Header Test
-      </h1>
-      
+      </h1>     
     );
   }
   
