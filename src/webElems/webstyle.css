@@ -84,6 +84,7 @@ li a {
   flex-direction: row;
 }
 
+
   .sidebar{
     display: flex;;
     justify-content: stretch;
@@ -100,6 +101,12 @@ li a {
     background-color: #DDDDDD;
   }
 
+  .bodycontents{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
 }
 
 /* For Screen size:  small screens/ protrait on phone*/
@@ -110,6 +117,8 @@ li a {
   flex-direction: column;
   background-color: #accdf1;
 }
+
+
 
 .sidebar{
     display: flex;
@@ -128,10 +137,17 @@ li a {
     background-color: #DDDDDD;
   }
 
+
+  .bodycontents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
 }
 
+/* global flex box style settings */
 .WebPageContainer{
   display: flex;
   flex-direction: column;
 }
-
