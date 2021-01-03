@@ -68,4 +68,70 @@ li a {
   color: #000;
   padding: 8px 16px;
   text-decoration: none;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(197, 196, 149);
 }
+
+/* flexbase code */
+
+/* for Screen size:  wide-screens/ desktop*/
+@media screen and (min-width: 400px){
+
+  .WebBodyContainer{
+  display: flex;
+  flex-direction: row;
+}
+
+  .sidebar{
+    display: flex;;
+    justify-content: stretch;
+    flex-direction: column;
+    background-color: #444444;
+    height: 100vh;
+  }
+  
+  .sidebar a{
+    background-color: #AAAAAA;
+  }
+
+    .sidebar a:hover{
+    background-color: #DDDDDD;
+  }
+
+}
+
+/* For Screen size:  small screens/ protrait on phone*/
+@media screen and (max-width: 400px){
+
+.WebBodyContainer{
+  display: flex;
+  flex-direction: column;
+  background-color: #accdf1;
+}
+
+.sidebar{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    background-color: #444444;
+  }
+  
+  .sidebar a{
+    background-color: #AAAAAA;
+    display: flex;
+    width: 4em;
+  }
+
+    .sidebar a:hover{
+    background-color: #DDDDDD;
+  }
+
+}
+
+.WebPageContainer{
+  display: flex;
+  flex-direction: column;
+}
+

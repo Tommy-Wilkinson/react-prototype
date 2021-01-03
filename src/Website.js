@@ -14,15 +14,22 @@ class WebPage extends React.Component{
 
   render() {
     return (
-      <div>
-       <div className="banner">
-        <Banner />
+      <div className="WebPageContainer">
+
+        <div className="banner">
+          <Banner />
         </div> 
-        <div className="AlignLeft">
-          <VertMenu />      
-        </div>      
-        <div className="webbody">
-           <Body />
+
+        <div className="WebBodyContainer">
+
+          <div className="sidebar">
+            <VertMenu />      
+          </div>      
+
+          <div className="bodycontents">
+             <Body />
+          </div>
+
         </div>  
       </div>
     );
