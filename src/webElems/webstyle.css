@@ -154,3 +154,9 @@ li a {
   display: flex;
   flex-direction: column;
 }
+
+Select{
+  display: flex;
+  height: 2em;
+  justify-contents: space-around;
+}

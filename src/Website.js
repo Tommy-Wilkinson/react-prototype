@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import Banner from "./webElems/Header.js";
 import Body from "./webElems/Body.js";
 import VertMenu from "./webElems/Menu.js";
-import Input from "./webElems/Input.js";
+
 import "./webElems/webstyle.css";
 
 export default function Website(){
