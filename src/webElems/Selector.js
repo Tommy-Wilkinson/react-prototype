@@ -19,7 +19,7 @@ export default class Selector extends React.Component{
       <>
         <select value={this.state.value} onChange={this.handlechange}>
             {options.map((option) => (
-              <option value={option.value}>{option.label}</option>
+              <option key={option.value} value={option.value}>{option.label}</option>
             ))}
         </select>
       </>
