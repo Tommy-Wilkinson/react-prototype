@@ -1,15 +1,15 @@
 import React from "react"; 
+import options from "./SelOptions.js";
 
 export default class Selector extends React.Component{
 
   render(){
     return(
       <>
-        <select>
-          <option value="first">First</option>
-          <option value="second">Second</option>
-          <option selected value="third">Third</option>
-          <option value="fourth">Fourth</option>
+        <select value="Third">
+            {options.map((option) => (
+              <option value={option.value}>{option.label}</option>
+            ))}
         </select>
       </>
     );
