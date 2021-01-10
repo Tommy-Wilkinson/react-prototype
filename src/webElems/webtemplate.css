@@ -44,6 +44,16 @@
  
 }
 
+.burger_box_active{
+  background-color: rgb(43, 128, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  
+  padding: 3px; 
+ 
+}
+
 .burger_top{
   background-color: #EEEEEE;
   width: 30px;

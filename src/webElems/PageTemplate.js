@@ -42,9 +42,9 @@ class Burger extends React.Component{
 
 
   render(){
-    var clickedState = this.state.isActive ? "burger_box_active":"burger_box";
+    var clickedState = this.state.isActive ?"burger_box_active":"burger_box";
     return(
-      <div className="burger_box" onClick={this.handleClick}>
+      <div className={clickedState} onClick={this.handleClick}>
         <div className="burger_top"></div>
         <div className="burger_middle"></div>
         <div className="burger_bottom"></div>
