@@ -32,7 +32,7 @@
 }
 
 .burger_box {
-  background-color: #999999;
+  background-color: #88888871;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
@@ -41,7 +41,7 @@
 }
 
 .burger_box_active {
-  background-color: rgb(43, 128, 255);
+  background-color: #999999;
   border-radius: 5px;
   display: flex;
   flex-direction: column;

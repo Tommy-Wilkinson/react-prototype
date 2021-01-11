@@ -13,7 +13,7 @@ class HeaderNav extends React.Component{
 
     constructor(props){
     super(props);
-    this.state = { showMenu: true };
+    this.state = { showMenu: false };
     this.toggleMenu = this.toggleMenu.bind(this);
 
   }
@@ -62,7 +62,7 @@ class Burger extends React.Component{
 
 
   render(){
-    var clickedState = this.state.isActive ?"burger_box":"burger_box_active";
+    var clickedState = this.state.isActive ?"burger_box_active":"burger_box";
     return(
       <div className={clickedState} 
       onClick={this.handleClick}>
