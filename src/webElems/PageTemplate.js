@@ -53,6 +53,7 @@ class Burger extends React.Component{
   }
 
   handleClick() {
+    this.props.toggleMenu;
     this.setState(state => ({
       isActive: !state.isActive
     }));
@@ -63,7 +64,7 @@ class Burger extends React.Component{
     var clickedState = this.state.isActive ?"burger_box_active":"burger_box";
     return(
       <div className={clickedState} 
-      onClick={NavLinks.handleBurgerClick}>
+      onClick={this.handleClick}>
         <div className="burger_top"></div>
         <div className="burger_middle"></div>
         <div className="burger_bottom"></div>
