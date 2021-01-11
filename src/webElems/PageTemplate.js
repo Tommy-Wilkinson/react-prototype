@@ -106,6 +106,7 @@ render(){
       {this.renderButton('Home')}
       {this.renderButton('Products')}
       {this.renderButton('About Us')}
+      {this.renderButton('Contact')}
       </div>
       /*} 
       </>*/
