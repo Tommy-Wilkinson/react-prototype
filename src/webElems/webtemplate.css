@@ -88,9 +88,10 @@
   outline: none;
   display: inline-block;
   border: none;
+  
   color: #eeeeee;
-  background-color: #7575757c;
-  padding:  7px 14px 7px 14px;
+  background-color: #2c2c2c;
+  padding: 14px 16px 8px 18px;
   border-radius: 3px;
   transition: 0.7s;
 }
