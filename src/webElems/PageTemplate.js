@@ -96,18 +96,19 @@ renderButton(name){
   }
 
 render(){
-  var click = (this.state.isActive ? 
+  var click = (this.props.showMenu ? 
   'NavLinksSidebar':'NavLinksSidebar_inactive');
   return( 
-    <>{this.props.showMenu&& 
+    /*<>
+    {this.props.showMenu&& */ 
     <div className={click}>
          
       {this.renderButton('Home')}
       {this.renderButton('Products')}
       {this.renderButton('About Us')}
       </div>
-      }
-      </>
+      /*} 
+      </>*/
     
   );
 
