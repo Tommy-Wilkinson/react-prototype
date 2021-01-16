@@ -1,5 +1,6 @@
 import React from "react";
-import "./webtemplate.css"
+import "./webtemplate.css";
+import Card from "./card.js";
 
 export default class WebPageTemplate extends React.Component{
 
@@ -37,6 +38,18 @@ class HeaderNav extends React.Component{
         </div>
       </div>
       <div>
+        <div className="WebBodyContent">
+          <div>
+            <Card />
+            <Card />
+           <Card />
+          </div>
+          <div>
+            <Card />
+            <Card />
+           <Card />
+          </div>
+        </div>       
         <NavLinks showMenu={this.state.showMenu}/>
       </div>
       </>
