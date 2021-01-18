@@ -1,6 +1,7 @@
 import React from "react";
 import "./webtemplate.css";
 import Card from "./card.js";
+import FiveCard from "./five-card.js";
 
 export default class WebPageTemplate extends React.Component{
 
@@ -29,28 +30,31 @@ class HeaderNav extends React.Component{
 
     return(
       <>
+      <header>
+      <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+      </link>
+      </header>
       <div className="HeaderNav_Container">
         <div className="HeaderNav_item1">
-          Website Title
+          <button className="titlebutton">Company Inc.</button>
         </div>
         <div className="HeaderNav_item2">
           <Burger toggleMenu={this.toggleMenu} />
         </div>
       </div>
-      <div>
+      <div className="BodyWrapper">
         <div className="WebBodyContent">
-          <div>
-            <Card />
-            <Card />
-           <Card />
-          </div>
-          <div>
-            <Card />
-            <Card />
-           <Card />
-          </div>
-        </div>       
+          <FiveCard />
+        </div>     
         <NavLinks showMenu={this.state.showMenu}/>
+
+
+      </div>       
+      <div className="Footer">
+        
+          Made with React by Silent Stalwart Studios ©
+                 
       </div>
       </>
     );
