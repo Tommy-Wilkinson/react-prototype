@@ -1,22 +1,27 @@
 {
-  "files": {
-    "main.css": "/static/css/main.fe65c61c.chunk.css",
-    "main.js": "/static/js/main.f4e49820.chunk.js",
-    "main.js.map": "/static/js/main.f4e49820.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.3888eb90.js",
-    "runtime-main.js.map": "/static/js/runtime-main.3888eb90.js.map",
-    "static/js/2.af657c4f.chunk.js": "/static/js/2.af657c4f.chunk.js",
-    "static/js/2.af657c4f.chunk.js.map": "/static/js/2.af657c4f.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.fe65c61c.chunk.css.map": "/static/css/main.fe65c61c.chunk.css.map",
-    "static/js/2.af657c4f.chunk.js.LICENSE.txt": "/static/js/2.af657c4f.chunk.js.LICENSE.txt",
-    "static/media/base text.d4057083.png": "/static/media/base text.d4057083.png",
-    "static/media/nebula.6b6e326f.jpg": "/static/media/nebula.6b6e326f.jpg"
-  },
-  "entrypoints": [
-    "static/js/runtime-main.3888eb90.js",
-    "static/js/2.af657c4f.chunk.js",
-    "static/css/main.fe65c61c.chunk.css",
-    "static/js/main.f4e49820.chunk.js"
-  ]
+    "homepage": "https://Tommy-Wilkinson.github.io/React-Webpage",
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "files": {
+        "main.css": "/static/css/main.fe65c61c.chunk.css",
+        "main.js": "/static/js/main.f4e49820.chunk.js",
+        "main.js.map": "/static/js/main.f4e49820.chunk.js.map",
+        "runtime-main.js": "/static/js/runtime-main.3888eb90.js",
+        "runtime-main.js.map": "/static/js/runtime-main.3888eb90.js.map",
+        "static/js/2.af657c4f.chunk.js": "/static/js/2.af657c4f.chunk.js",
+        "static/js/2.af657c4f.chunk.js.map": "/static/js/2.af657c4f.chunk.js.map",
+        "index.html": "/index.html",
+        "static/css/main.fe65c61c.chunk.css.map": "/static/css/main.fe65c61c.chunk.css.map",
+        "static/js/2.af657c4f.chunk.js.LICENSE.txt": "/static/js/2.af657c4f.chunk.js.LICENSE.txt",
+        "static/media/base text.d4057083.png": "/static/media/base text.d4057083.png",
+        "static/media/nebula.6b6e326f.jpg": "/static/media/nebula.6b6e326f.jpg"
+    },
+    "entrypoints": [
+        "static/js/runtime-main.3888eb90.js",
+        "static/js/2.af657c4f.chunk.js",
+        "static/css/main.fe65c61c.chunk.css",
+        "static/js/main.f4e49820.chunk.js"
+    ]
 }
