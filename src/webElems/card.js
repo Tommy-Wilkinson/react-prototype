@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import nebula from "../../src/nebula.jpg"
+import nebula from "../../src/images/nebula.jpg"
 
 export class card extends Component {
     constructor(props){
@@ -23,7 +23,7 @@ export class card extends Component {
         const contName = this.state.isFocused ? "CardContainerActive" : "CardContainer";
         return (
             <div className={contName}
-            onMouseEnter={this.handleMouseEnter}
+            onMouseOver={this.handleMouseEnter}
             onMouseLeave={this.handleMouseLeave}>
                 <div className="CardImage">
                     <img src={this.props.image||nebula}></img>
